@@ -1,3 +1,4 @@
+# connect-alerts [![Build Status](https://travis-ci.org/nrako/connect-alerts.png?branch=master)](https://travis-ci.org/nrako/connect-alerts) [![Coverage Status](https://coveralls.io/repos/nrako/connect-alerts/badge.png?branch=master)](https://coveralls.io/r/nrako/connect-alerts) [![Dependency Status](https://gemnasium.com/nrako/connect-alerts.png)](https://gemnasium.com/nrako/connect-alerts)
 
 ## Usage
 
