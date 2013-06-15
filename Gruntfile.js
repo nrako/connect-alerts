@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         options: {
           coveralls: {
             serviceName: 'travis-ci',
-            repoToken: 'wNX32It8BED6agbtjuOuBj6KOVhKBgb7q'
+            repoToken: 'MFH5LUD9VUE4AVhyu3QWHvdnrecI5377W'
           }
         }
       },
@@ -79,5 +79,5 @@ module.exports = function(grunt) {
 
   // Run server-side tests
   grunt.registerTask('test', ['jshint', 'jsvalidate', 'jsonlint', 'mochacov:test']);
-  grunt.registerTask('travis', ['mochacov:test']);
+  grunt.registerTask('travis', ['mochacov:test', 'mochacov:coveralls']);
 };
