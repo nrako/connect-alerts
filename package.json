@@ -1,6 +1,6 @@
 {
   "name": "connect-alerts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Configurable alerts (flash) message with an optional callback and a connect middleware",
   "main": "index.js",
   "scripts": {
