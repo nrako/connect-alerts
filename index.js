@@ -6,7 +6,7 @@ module.exports = function(opts) {
   return function(req, res, next) {
     if (req.session === undefined) throw new Error('req.alert() requires session');
 
-    res.alert = alert.bind(req);
+    req.alert = res.alert = alert.bind(req);
     if (res.locals) {
       res.locals.getAlerts = getAlerts.bind(req);
       res.locals.deleteAlerts = deleteAlerts.bind(req);
